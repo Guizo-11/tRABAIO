@@ -1,0 +1,72 @@
+/* Reset das configurações do navegador */ 
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(aaaaaaaaaa.jpg);
+    
+}
+
+.container {
+    margin: 4em auto;  
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 66%);
+    grid-template-rows: repeat(3, 33%);
+    max-width: 60em;
+}
+.Media{
+ display: flex;
+ justify-content: center;
+ margin: 2em;
+
+}
+
+.grid {
+    border: 1px solid rgb(255, 0, 0);
+    min-width: 25em;
+    min-height: 25em;
+    display: block;
+    justify-content: center;
+    align-items: center;    
+    cursor: pointer;    
+    margin: 5%;
+    background-color: rgba(0, 0, 0, 0.5) ;
+    color:rgb(255, 255, 255);
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 0.2px;
+   
+}
+
+h2 {
+    color:rgb(255, 255, 255);
+    text-align: center;
+    margin: 1em;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 0.5px;
+}
+
+p {
+    text-align: justify;
+    margin:2%;
+}
+
+img {
+    display: flex;
+    width: 30%;
+    margin-left: -1em;
+    margin-right: 2em ;
+}
+
+a {
+    text-decoration:nonez;
+}
+
+button {
+    display: flex;
+    margin: 0 auto;
+    width: 20em;
+    height: 2em;
+    justify-content: center;
+}
